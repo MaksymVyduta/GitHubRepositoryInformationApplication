@@ -26,7 +26,7 @@ public class Application {
 class GithubRepoController {
 
 	private final String GITHUB_API_BASE_URL = "https://api.github.com";
-	private final String TOKEN = "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";
+	private final String TOKEN = "";
 
 	@GetMapping("/repositories/{username}")
 	public ResponseEntity<Object> listRepositories(
