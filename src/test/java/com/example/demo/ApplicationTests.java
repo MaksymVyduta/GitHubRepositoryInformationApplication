@@ -33,7 +33,7 @@ class ApplicationTests {
 
 		String jsonPayload = objectMapper.writeValueAsString(requestPayload);
 
-		mockMvc.perform(MockMvcRequestBuilders.post("/repositories")
+		mockMvc.perform(MockMvcRequestBuilders.post("/")
 						.header("Authorization", "Bearer " + githubToken)
 						.header("Accept", "application/json")
 						.contentType(MediaType.APPLICATION_JSON)
@@ -49,7 +49,7 @@ class ApplicationTests {
 
 		String jsonPayload = objectMapper.writeValueAsString(requestPayload);
 
-		mockMvc.perform(MockMvcRequestBuilders.post("/repositories")
+		mockMvc.perform(MockMvcRequestBuilders.post("/")
 						.header("Authorization", "Bearer " + githubToken)
 						.header("Accept", "application/json")
 						.contentType(MediaType.APPLICATION_JSON)
