@@ -30,19 +30,26 @@ Please note that you need to provide a valid GitHub token in the request header 
 
 How to Obtain GitHub Token
 
+
 To use the GitHub API, you need a personal access token. Here's how you can obtain and set it:
 
--Go to your GitHub account settings.
--Navigate to "Developer settings" > "Personal access tokens".
--Click on "Generate new token".
--Give your token a name, select the desired scopes (e.g., repo), and click "Generate token".
--Copy the generated token.
--Setting the GitHub Token
--Open the src/main/resources/application.properties file.
-- Replace your-github-token with the token you obtained:
+1) Go to your GitHub account settings.
+2) Navigate to "Developer settings" > "Personal access tokens".
+3) Click on "Generate new token".
+4) Give your token a name, select the desired scopes (e.g., repo), and click "Generate token".
+5) Copy the generated token.
+
+
+Setting the GitHub Token
+
+
+1) Open the src/main/resources/application.properties file.
+2) Replace your-github-token with the token you obtained:
    github.api.token=your-github-token
 
+
 How to Run Tests
+
 
 Navigate to the project directory if you're not already there:
 Run tests using Gradle:
