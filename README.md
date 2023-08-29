@@ -17,7 +17,7 @@ The application will be accessible at http://localhost:8080.
 How to Use the Application
 
 
-To use this application, you need to send a POST request with a JSON payload containing the GitHub username to the following endpoint: http://localhost:8080/repositories.
+To use this application, you need to send a POST request with a JSON payload containing the GitHub username to the following endpoint: http://localhost:8080/.
 
 Example JSON Payload:
 {
